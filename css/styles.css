@@ -30,7 +30,7 @@ header{
   display: flex;
   background-color: black;
   justify-content: space-between;
-  flex-basis: 65%;
+  flex-basis: 75%;
 }
 
 .navbar-logo{
@@ -68,7 +68,7 @@ main div h2{
 .contenido{
   background-color: white;
   display: flex;
-  flex-basis: 65%;
+  flex-basis: 75%;
   margin: 0 auto;
 }
 
@@ -91,19 +91,44 @@ img{
 }
 
 .card{
-  display: block;
-  justify-content: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   margin: 0.5rem;
-  flex-basis: ;
 }
 
-.contenedor-imagen-main{
-  display: ;
+/* .contenedor-imagen-main{
+  margin-bottom: ;
+} */
+
+.contenedor-texto-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .products-images{
-  height: 30rem;
+  height: 20rem;
   object-fit: cover;
+}
+
+.card h3{
+  white-space: nowrap;
+}
+
+.descripcion{
+  width: auto;
+  height: 18rem;
+  overflow: hidden;
+  /* flex: 1; */
+  margin-bottom: ;
+}
+
+.precio{
+  margin-top: auto;
+  height: auto;
 }
 
 .contenido-lateral{
@@ -114,7 +139,6 @@ img{
 
 aside h2{
 text-align: center;
-font-size: ;
 white-space: nowrap;
 }
 
@@ -147,4 +171,46 @@ aside ul{
 .contenedor-texto-aside{
   margin: auto 0;
   margin-left: 0.5rem;
+}
+
+.contenedor-contenedor{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.contenedor-blog{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 2rem;
+  height: 40rem;
+  flex-basis: 75%;
+}
+
+
+.contenedor-blog h2{
+  text-align: center;
+}
+
+
+.blog-01{
+  background-color: lightcyan;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.blog-02{
+  background-color: lightcyan;
+  display: flex;
+}
+
+.blog-img-01{
+  flex-basis: 20%;
+}
+
+.blog-content-01{
+  flex-basis: 80%;
+  padding: 4rem;
 }
