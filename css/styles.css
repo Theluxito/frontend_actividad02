@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
+  background-image: url(../img/background.jpg);
 }
 
 h1{
@@ -29,7 +30,7 @@ header{
   display: flex;
   background-color: black;
   justify-content: space-between;
-  flex-basis: 50%;
+  flex-basis: 65%;
 }
 
 .navbar-logo{
@@ -43,7 +44,6 @@ header{
   color: white;
   text-decoration: none;
   align-items: center;
-
 }
 
 .list{
@@ -55,4 +55,96 @@ header{
   color: white;
   text-decoration: none;
   margin-right: 1.5rem;
+}
+
+main div h2{
+  text-align: center;
+}
+
+.contenedor-main{
+  display: flex;
+}
+
+.contenido{
+  background-color: white;
+  display: flex;
+  flex-basis: 65%;
+  margin: 0 auto;
+}
+
+.contenido-principal{
+  flex-basis: 75%;
+}
+
+.contenido-lateral{
+  flex-basis: 25%;
+}
+
+img{
+  width: 100%;
+}
+
+.contenedor-cards{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card{
+  display: block;
+  justify-content: ;
+  margin: 0.5rem;
+  flex-basis: ;
+}
+
+.contenedor-imagen-main{
+  display: ;
+}
+
+.products-images{
+  height: 30rem;
+  object-fit: cover;
+}
+
+.contenido-lateral{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+aside h2{
+text-align: center;
+font-size: ;
+white-space: nowrap;
+}
+
+
+aside ul{
+list-style: none;
+}
+
+
+.aside-images{
+  width: 5rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.aside-text{
+  font-size: rem;
+}
+
+aside ul{
+  padding: 0;
+}
+
+.li-aside{
+  display: flex;
+  border-bottom: solid .1rem #ddd;
+  margin-top: .8rem;
+}
+
+.contenedor-texto-aside{
+  margin: auto 0;
+  margin-left: 0.5rem;
 }
