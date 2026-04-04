@@ -239,78 +239,102 @@
 
     <!-- About -->
 
-    <div class="about">
-      <section>
-        <h2>Sobre Nosotros</h2>
-        <p>
-          En <strong>MANGASTORE</strong> nos apasiona el mundo del manga y el
-          cómic. Desde nuestros inicios, buscamos acercar a los lectores las
-          mejores historias japonesas y ediciones exclusivas. Lorem ipsum dolor
-          sit amet consectetur adipisicing elit. Quibusdam minus ab distinctio
-          labore voluptates earum accusamus maiores dicta, laborum quidem ullam
-          beatae, repellendus porro reprehenderit. Ducimus, natus? Quisquam,
-          aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Provident nostrum dolorum cumque aspernatur molestiae harum debitis
-          expedita ullam odio nemo. Commodi assumenda numquam id iusto saepe
-          alias ipsum similique molestias.
-        </p>
-      </section>
+    <div class="contenedorDelContenedor">
+      <div class="contenedor-final">
+        <div class="about">
+          <section>
+            <h2>Sobre Nosotros</h2>
+            <p class="about-text">
+              En <strong>MANGASTORE</strong> nos apasiona el mundo del manga y
+              el cómic. Desde nuestros inicios, buscamos acercar a los lectores
+              las mejores historias japonesas y ediciones exclusivas. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus
+              ab distinctio labore voluptates earum accusamus maiores dicta,
+              laborum quidem ullam beatae, repellendus porro reprehenderit.
+              Ducimus, natus? Quisquam, aliquid. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Provident nostrum dolorum cumque
+              aspernatur molestiae harum debitis expedita ullam odio nemo.
+              Commodi assumenda numquam id iusto saepe alias ipsum similique
+              molestias.
+            </p>
+          </section>
+        </div>
+
+        <!-- Contacto -->
+        <div class="contact">
+          <h2>Contáctanos</h2>
+          <form action="#" method="post">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <!-- Contacto -->
-    <h2>Contáctanos</h2>
-    <form action="#" method="post">
-      <label for="name">Nombre</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Correo</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Mensaje</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Enviar</button>
-    </form>
-
     <!--Inicio footer-->
-    <h3>MANGASTORE</h3>
-    <p>
-      Tu tienda especializada en manga y cultura japonesa. Ediciones nuevas,
-      colecciones y preventas.
-    </p>
 
-    <address>
-      <h4>Contacto</h4>
-      <ul>
-        <li>Teléfono: +56 9 1234 5678</li>
-        <li>WhatsApp: +56 9 8765 4321</li>
-        <li>
-          Correo:
-          <a href="mailto:hola@mangastore.cl">contacto@mangastore.cl</a>
-        </li>
-        <li>Horario: Lun–Sáb 10:00–19:00</li>
-      </ul>
-    </address>
+    <div class="flex-basis">
+      <div class="footer-background">
+        <div class="footer">
+          <div class="footer-description">
+            <h3>MANGASTORE</h3>
+            <p>
+              Tu tienda especializada en manga y cultura japonesa. Ediciones
+              nuevas, colecciones y preventas.
+            </p>
+          </div>
 
-    <h4>Sucursales</h4>
-    <ul>
-      <li>Av. falsa 1234, Arica</li>
-      <li>Calle mentira 567, Iquique</li>
-    </ul>
+          <div class="direccion">
+            <address>
+              <h4>Contacto</h4>
+              <ul class="lista-contactos">
+                <li>Teléfono: +56 9 1234 5678</li>
+                <li>WhatsApp: +56 9 8765 4321</li>
+                <li>
+                  Correo:
+                  <a href="mailto:hola@mangastore.cl">contacto@mangastore.cl</a>
+                </li>
+                <li>Horario: Lun–Sáb 10:00–19:00</li>
+              </ul>
+            </address>
+          </div>
 
-    <h4>Enlaces</h4>
-    <ul>
-      <li><a href="#">Términos y condiciones</a></li>
-      <li><a href="#">Política de privacidad</a></li>
-      <li><a href="#">Despachos y devoluciones</a></li>
-      <li><a href="#">Preguntas frecuentes</a></li>
-    </ul>
+          <div class="sucursales">
+            <h4>Sucursales</h4>
+            <ul class="lista-sucursales">
+              <li>Av. falsa 1234, Arica</li>
+              <li>Calle mentira 567, Iquique</li>
+            </ul>
+          </div>
 
-    <p>© 2025 MANGASTORE SpA. Todos los derechos reservados.</p>
-    <ul>
-      <li><a href="#" aria-label="Facebook">Facebook</a></li>
-      <li><a href="#" aria-label="Instagram">Instagram</a></li>
-      <li><a href="#" aria-label="X (Twitter)">X</a></li>
-    </ul>
+          <div class="enlaces">
+            <h4>Enlaces</h4>
+            <ul class="lista-enlaces">
+              <li class="enlaces-items"><a href="#">Términos y condiciones</a></li>
+              <li class="enlaces-items"><a href="#">Política de privacidad</a></li>
+              <li class="enlaces-items"><a href="#">Despachos y devoluciones</a></li>
+              <li class="enlaces-items"><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="derechos-redes">
+          <p>© 2025 MANGASTORE SpA. Todos los derechos reservados.</p>
+          <ul class="lista-redes">
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="X (Twitter)">X</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
