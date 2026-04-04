@@ -185,8 +185,9 @@ aside ul{
   flex-direction: column;
   margin: 0 auto;
   margin-top: 2rem;
-  height: 40rem;
+  height: auto;
   flex-basis: 75%;
+  padding-bottom: 1.8rem;
 }
 
 
@@ -198,19 +199,40 @@ aside ul{
 .blog-01{
   background-color: lightcyan;
   display: flex;
+  margin: 0 2rem;
   margin-bottom: 1rem;
 }
 
-.blog-02{
-  background-color: lightcyan;
-  display: flex;
-}
 
 .blog-img-01{
   flex-basis: 20%;
+  margin: auto ;
+  
 }
 
 .blog-content-01{
   flex-basis: 80%;
   padding: 4rem;
+}
+
+.blog-02{
+  background-color: lightcyan;
+  display: flex;
+  margin: 0 2rem;
+  margin-top: 1rem;
+}
+
+.blog-img-02{
+  flex-basis: 20%;
+  margin: auto ;
+}
+
+
+.blog-content-02{
+  flex-basis: 80%;
+  padding: 4rem;
+}
+
+.about{
+  background-color: #fff;
 }
